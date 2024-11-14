@@ -4,7 +4,7 @@ You can use the random index to access the option from the options array.*/
 
 function getRandomComputerResult() {
     const options = ["Rock", "Paper", "Scissors"];
-    const rndInt = Math.floor(Math.random() * 3)
+    const rndInt = Math.floor(Math.random() * options.length)
     return options[rndInt];
 
 }
