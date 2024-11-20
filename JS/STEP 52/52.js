@@ -15,16 +15,20 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow(name) {
-    return name;
+//function padRow(name) {
+//    return name;
+//}
+// const call = padRow("Bill"); // step 52
+// console.log(call);
+// function addTwoNumbers(num1, num2){
+//     return num1 + num2;                           //step53
+// }
+// let sum = addTwoNumbers(5, 10);
+// console.log(sum);
+
+function padRow(rowNumber, rowCount) {
+    return character.repeat(rowNumber)                    // step 65
 }
-const call = padRow("Bill"); // step 52
-console.log(call);
-function addTwoNumbers(num1, num2){
-    return num1 + num2;                           //step53
-}
-let sum = addTwoNumbers(5, 10);
-console.log(sum);
 
 
 for (let i = 0; i < count; i = i + 1) {
