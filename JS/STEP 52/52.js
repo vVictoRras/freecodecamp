@@ -32,7 +32,7 @@ function padRow(rowNumber, rowCount) {
 
 
 for (let i = 0; i < count; i = i + 1) {
-    rows.push(character.repeat(i + 1))
+    rows.push(padRow());                      // 66
 }
 
 let result = ""
